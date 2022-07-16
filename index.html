@@ -15,8 +15,15 @@
 	</style>
 </head>
 <body>
+	<script>
+		document.addEventListener("DOMContentLoaded", (event) => {
+			let konamiInstance = new Konami();
 
-	<script src="js/Konami.js"></script>
-	<script src="js/main.js"></script>
+			konamiInstance.addEventListener('konami-detected', (e) => {
+				console.log(`Konami Code has been triggered ${e.detail.times} times.`);
+			});
+		});
+	</script>
+	<script src="Konami.js"></script>
 </body>
 </html>
