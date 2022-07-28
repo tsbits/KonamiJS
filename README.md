@@ -1,5 +1,5 @@
 # KonamiJS
-🤖 A simple class to detect Konami code.
+A simple class to detect [Konami code](https://en.wikipedia.org/wiki/Konami_Code).
 
 🔼🔼🔽🔽◀▶◀▶🅱🅰
 
