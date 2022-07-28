@@ -8,7 +8,7 @@ A simple class to detect [Konami code](https://en.wikipedia.org/wiki/Konami_Code
 Import [Konami.js](Konami.js) into your project.
 
 ### Step 2 : Instanciate
-Create A Konami instance like this :
+Create a Konami instance like this :
 ```javascript
 let k = new Konami();
 ```
